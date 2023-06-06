@@ -1,0 +1,17 @@
+O que é hashing?
+Hashing significa usar alguma função ou algoritmo para mapear os dados do objeto para algum valor inteiro representativo.
+
+Este chamado código de hash (ou simplesmente hash) pode então ser usado como um modo de reduzir a nossa busca ao procurar o item no mapa.
+
+Geralmente, esses códigos de hash são usados para gerar um índice, no qual o valor é armazenado.
+
+Como o hashing funciona
+Em tabelas hash (em inglês, hash tables), você armazena os dados em formas de pares de chaves e valores. 
+A chave, que é usada para identificar os dados, é dada como uma entrada para a função de hashing. 
+O código hash, que é um número inteiro, é, então, mapeado para o tamanho fixo que temos.
+
+As tabelas hash têm que dar suporte a 3 funções.
+
+inserir (chave, valor)
+obter (chave)
+excluir (chave)
