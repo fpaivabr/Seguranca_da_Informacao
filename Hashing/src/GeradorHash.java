@@ -6,7 +6,7 @@ import java.util.Base64;
 public class GeradorHash {
 
     public static void main(String[] args) {
-        String caminhoArquivo = "C:\\Users\\fernando.psousa\\Desktop\\Hashing\\Hashing.txt";
+        String caminhoArquivo = "C:\\Users\\USER\\Desktop\\Seguranca_da_Informacao\\Hashing\\Hashing.txt";
         System.out.println("MD5: " + gerarHash(caminhoArquivo, "MD5"));
         System.out.println("SHA-256: " + gerarHash(caminhoArquivo, "SHA-256"));
     }
